@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  background-color: #0f0f0f;
+  min-width: 1024px;
+}
+
+.backdrop {
+  background-color: #0f0f0f;
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 2;
+}
+
+.header{
+  z-index: 10;
+  font-size: large;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display:table;
+  margin:1rem auto;
+  padding:0 .5em;
+  line-height: 0.9;
+  
+
+}
+
+
+.text-rainbow-animation {
+  font-family:"Lato" black;
+  font-size:90px;
+  background-image: 
+    linear-gradient(to right, #fcdcdc, #f7ede3, #f5cac3, #95bccc, #beceda); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 350s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+
+.insides{  
+  margin: 5vh;
+  padding: 3%;  
+  border:solid;
+  border-color: #f5cac3;
+  margin-right: 50%;
+  margin-left: 10%;
+  font-family: "Helvetica";
+  font-size: large;
+  font-weight: lighter ;
+  color: #95bccc;
+  background-image: 
+  linear-gradient(to right, #fcdcdc, #f7ede3, #f5cac3, #95bccc, #beceda); 
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+animation: rainbow-animation 3500s linear infinite;
+}
+
+.images{
+  margin: 5vh;
+  padding: 3%;
+  margin-top: -30%;
+  margin-right: 10%;
+  margin-left: 50%;
+  border-radius: 10%;
+
+}
+
+.insides2{  
+  margin: 5vh;
+  padding: 3%;  
+  border:solid;
+  border-color: #beceda;
+  margin-right: 10%;
+  margin-left: 50%;
+  font-family: "Helvetica";
+  font-size: large;
+  font-weight: lighter ;
+  color: #95bccc;
+  background-image: 
+  linear-gradient(to right, #fcdcdc, #f7ede3, #f5cac3, #95bccc, #beceda); 
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+animation: rainbow-animation 3500s linear infinite;
+}
+
+.images2{
+  margin: 5vh;
+  padding: 3%;
+  margin-top: -28%;
+  margin-right: 50%;
+  margin-left: 10%;
+  border-radius: 10%;
+  margin-bottom: 10vh;
+
+}
+
+.header2{
+  margin:15vh;
+  font-weight: lighter;
+  font-size: 10vh;
+  color:#beceda;
+  background-image: 
+  linear-gradient(to right, #fcdcdc, #f7ede3, #f5cac3, #95bccc, #beceda); 
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+animation: rainbow-animation 35s linear infinite;
+}
+
+.aa{
+  width: 200px;
+  height: 150px;
+}
+
+.aa{
+  background-color: #f6f6f6;
+}
+
+.aaa{
+  width: 500px;
+  height: 150px;
+}
